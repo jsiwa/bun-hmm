@@ -27,8 +27,6 @@ bun run src/segmentHMM.ts
 bun run src/segmentOptimized.ts
 ```
 
-```bash
-
 ## 文件说明
 
 - **dictionary.txt**: 包含常用词汇的字典，每行一个词。
@@ -39,17 +37,3 @@ bun run src/segmentOptimized.ts
 - **Trie.ts**: 前缀树（Trie）数据结构的实现。
 - **types.ts**: 项目的类型定义文件。
 - **tsconfig.json**: TypeScript 配置文件。
-
-## 先决条件
-
-- 安装 Node.js 和 Bun。
-
-## 安装
-
-1. 克隆仓库：
-
-```sh
-git clone <repository-url>
-cd chinese-tokenizer
-
-```
